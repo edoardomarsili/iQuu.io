@@ -75,7 +75,7 @@ body {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  background: radial-gradient(circle at 50% 40%, #fcfcfc, #efeff1 66%, #9b5050 100%);
+  background: radial-gradient(circle at 50% 40%, rgb(8, 52, 70), rgb(8, 52, 70) 66%, rgb(8, 52, 70) 100%);
   
   -webkit-animation: bubble-anim 2s ease-out infinite;
   -moz-animation: bubble-anim 1600ms ease-out infinite;

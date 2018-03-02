@@ -145,7 +145,7 @@ $(function(){
                         ballheight = $(this).height(),
                         mXper = Math.round(e.pageX/ballwidth*100),
                         mYper = Math.round(e.pageY/ballheight*100),
-                        gradinetXY = "radial-gradient(circle at " + mXper + "% " + mYper + "%, #fcfcfc, #d7d7d9 66%, #9b5050 100%)";
+                        gradinetXY = "radial-gradient(circle at " + mXper + "% " + mYper + "%, rgb(8, 52, 70), rgb(8, 52, 70) 66%, rgb(8, 52, 70) 100%)";
                     $(this).css("background", gradinetXY)
                     /* msgc.send(".ball: " + gradinetXY, 'log') */
                 })
