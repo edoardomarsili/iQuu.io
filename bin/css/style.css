@@ -458,50 +458,50 @@ body {
 /* W3, Opera 12+, Firefox 16+ */
 @keyframes bounce {
   0% {
-	transform:translateY(-100%);
+	transform: translateX(-50%) translateY(-100%);
     opacity: 0;
   }
   5% {
-  	transform:translateY(-100%);
+  	transform: translateX(-50%) translateY(-100%);
     opacity: 0;
   }
   15% {
-  	transform:translateY(0);
+  	transform: translateX(-50%) translateY(0);
     padding-bottom: 5px;
   }
   30% {
-  	transform:translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
   }
   40% {
-  	transform:translateY(0%);
+  	transform: translateX(-50%) translateY(0%);
     padding-bottom: 6px;
   }
   50% {
-  	transform:translateY(-30%);
+  	transform: translateX(-50%) translateY(-30%);
   }
   70% {
-  	transform:translateY(0%);
+  	transform: translateX(-50%) translateY(0%);
     padding-bottom: 7px;
   }
   80% {
-  	transform:translateY(-15%);
+  	transform: translateX(-50%) translateY(-15%);
   }
   90% {
-  	transform:translateY(0%);
+  	transform: translateX(-50%)translateY(0%);
   	padding-bottom: 8px;
   }
   95% {
-  	transform:translateY(-7%);
+  	transform: translateX(-50%) translateY(-7%);
   }
   97% {
-  	transform:translateY(0%);
+  	transform: translateX(-50%) translateY(0%);
   	padding-bottom: 9px;
   }
   99% {
-  	transform:translateY(-3%);
+  	transform: translateX(-50%) translateY(-3%);
   }
   100% {
-  	transform:translateY(0);
+  	transform: translateX(-50%) translateY(0);
   	padding-bottom: 9px;
     opacity: 1;
   }
